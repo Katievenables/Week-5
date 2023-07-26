@@ -1,0 +1,49 @@
+body {
+    background-color: sandybrown;
+}
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Simpsons\ picture.avif);
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: x-large;
+}
+
+.theme-tune {
+  position: fixed;
+}
+
+.headings {
+    color:lawngreen;
+    text-align: center;
+    position: static;
+}
+
+
+ol li {
+  color:aqua;
+}
+
+.paragraph > p > span {
+  font-weight: bold;
+  color: white;
+}
